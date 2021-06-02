@@ -1,0 +1,30 @@
+.container {
+  max-height: 110px;
+  max-width: 400px;
+  min-width: 225px;
+  margin: 10px auto;
+  overflow: auto;
+  min-height: 100px;
+  /* border: 1px solid rgb(181, 198, 212); */
+  border-bottom: 3px solid #1d3557;
+  background-color: #f1faee;
+  /* padding: 0px; */
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.container img {
+  max-width: 80px;
+  max-height: 100px;
+  border-radius: 100px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+}
